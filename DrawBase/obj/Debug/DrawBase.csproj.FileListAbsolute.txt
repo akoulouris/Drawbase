@@ -1,0 +1,15 @@
+C:\Project_pro\DrawBase\DrawBase\bin\Debug\DrawBase.exe.config
+C:\Project_pro\DrawBase\DrawBase\bin\Debug\DrawBase.exe
+C:\Project_pro\DrawBase\DrawBase\bin\Debug\DrawBase.pdb
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\MainWindow.g.cs
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\App.g.cs
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase_MarkupCompile.cache
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase_MarkupCompile.lref
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\MainWindow.baml
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.g.resources
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.Properties.Resources.resources
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.csproj.GenerateResource.Cache
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.csproj.CoreCompileInputs.cache
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.exe
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.pdb
+C:\Project_pro\DrawBase\DrawBase\obj\Debug\DrawBase.csprojResolveAssemblyReference.cache
