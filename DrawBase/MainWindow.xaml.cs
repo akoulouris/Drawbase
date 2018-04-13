@@ -24,52 +24,54 @@ namespace DrawBase
         public MainWindow()
         {
             InitializeComponent();
-           
+            
+
+
 
         }
 
-        private bool isMouseDown = false;
+        //private bool isMouseDown = false;
 
 
-        private void moving_menu_MouseDown(object sender, MouseEventArgs e)
+        //private void moving_menu_MouseDown(object sender, MouseEventArgs e)
 
-        {
+        //{
          
-            isMouseDown = true;
+        //    isMouseDown = true;
 
-        }
-        private void Main_Grid_MouseMove(object sender, MouseEventArgs e)
+        //}
+        //private void Main_Grid_MouseMove(object sender, MouseEventArgs e)
 
-        {
-            fp_Move_Control(sender, e);
-        }
-
+        //{
+        //    fp_Move_Control(sender, e);
+        //}
+ 
        
-        private void moving_menu_MouseMove(object sender, MouseEventArgs e)
+        //private void moving_menu_MouseMove(object sender, MouseEventArgs e)
 
-        {
-            Mouse.OverrideCursor = Cursors.Hand;
-            fp_Move_Control(sender, e);
-        }
+        //{
+        //    Mouse.OverrideCursor = Cursors.Hand;
+        //    fp_Move_Control(sender, e);
+        //}
 
-        private void fp_Move_Control(object sender, MouseEventArgs e)
-        {
-            if(e.LeftButton == MouseButtonState.Pressed)
-            {
-                Point mouse = e.GetPosition(this);
+        //private void fp_Move_Control(object sender, MouseEventArgs e)
+        //{
+        //    if(e.LeftButton == MouseButtonState.Pressed)
+        //    {
+        //        Point mouse = e.GetPosition(this);
 
-                int actheight = (int)Application.Current.MainWindow.Height;
-                int margin_button = actheight - ((int)mouse.Y + (int)moving_menu.Height + (int)SystemParameters.CaptionHeight + (int)SystemParameters.BorderWidth + 4);
+        //        int actheight = (int)Application.Current.MainWindow.Height;
+        //        int margin_button = actheight - ((int)mouse.Y + (int)moving_menu.Height + (int)SystemParameters.CaptionHeight + (int)SystemParameters.BorderWidth + 4);
                     
-                  int actwidth = (int)Application.Current.MainWindow.Width;
-                int margin_right = actwidth - ((int)mouse.X + (int)moving_menu.Width + (int)SystemParameters.BorderWidth);
+        //          int actwidth = (int)Application.Current.MainWindow.Width;
+        //        int margin_right = actwidth - ((int)mouse.X + (int)moving_menu.Width + (int)SystemParameters.BorderWidth);
 
 
-                moving_menu.Margin = new Thickness(mouse.X, mouse.Y, margin_right, margin_button);
-            }
-        }
+        //        moving_menu.Margin = new Thickness(mouse.X, mouse.Y, margin_right, margin_button);
+        //    }
+        //}
 
-
+        //--------------------------------------------------------------------------------------------------------------
         //private void userControl11_MouseMove(object sender, MouseEventArgs e)
 
         //{
