@@ -150,7 +150,7 @@
                 <MenuItem Header="Sub item 4" />
             </MenuItem>-->
                 <Border  CornerRadius="5" BorderBrush="Black" BorderThickness="1" >
-                    <Button Width="45" Height="52" Margin="3" >
+                    <Button x:Name="btn1" Width="45" Height="52" Margin="3" Click="btn1_Click"  >
 
                         <Button.Template>
 
@@ -167,6 +167,19 @@
                         </Button.Template>
                     </Button>
                 </Border>
+
+                <!--<Popup x:Name="popup" Width="100" Height="100" PlacementTarget="{Binding ElementName=text}"
+            StaysOpen="False">
+                    <Grid>
+                        <StackPanel>
+                            <DatePicker />
+                            <Border Background="LightYellow">
+                                <TextBlock>I'm the popup</TextBlock>
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                </Popup>-->
+
                 <Border CornerRadius="5" BorderBrush="Black" BorderThickness="1" >
                     <Button Width="45" Height="52" Margin="3">
                         <Button.Template>

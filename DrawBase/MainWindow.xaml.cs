@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DrawBaseLibraryCLR;
 
 namespace DrawBase
 {
@@ -26,8 +27,14 @@ namespace DrawBase
             InitializeComponent();
             
 
+        }
 
-
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            //popup.IsOpen = true;
+            Class1 test = new Class1();
+            string v = test.f(5).ToString();
+            MessageBox.Show(v);
         }
 
         //private bool isMouseDown = false;
@@ -36,7 +43,7 @@ namespace DrawBase
         //private void moving_menu_MouseDown(object sender, MouseEventArgs e)
 
         //{
-         
+
         //    isMouseDown = true;
 
         //}
@@ -45,8 +52,8 @@ namespace DrawBase
         //{
         //    fp_Move_Control(sender, e);
         //}
- 
-       
+
+
         //private void moving_menu_MouseMove(object sender, MouseEventArgs e)
 
         //{
@@ -62,7 +69,7 @@ namespace DrawBase
 
         //        int actheight = (int)Application.Current.MainWindow.Height;
         //        int margin_button = actheight - ((int)mouse.Y + (int)moving_menu.Height + (int)SystemParameters.CaptionHeight + (int)SystemParameters.BorderWidth + 4);
-                    
+
         //          int actwidth = (int)Application.Current.MainWindow.Width;
         //        int margin_right = actwidth - ((int)mouse.X + (int)moving_menu.Width + (int)SystemParameters.BorderWidth);
 
